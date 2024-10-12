@@ -1,13 +1,2 @@
-inventory = Inventory()
-product = Product()
-product2 = Product()
-
-product.save('Laptop', 1000, 'LT100', 'Electronics', 'Dell Laptop')
-product2.save('Tablet', 500, 'TB100', 'Electronics', 'Samsung Tablet')
-
-inventory.save('Electronics', 'Aisle 1')
-
-inventory.add_products(product)
-inventory.add_products(product2)
-
-inventory.list_products()
+Puede ser Stock bajo, reporte de productos sin movimiento, 
+agregados recientemente(si colocaramos fecha), stock actual, reporte inventario por ubicacion, reporte mayor valor o costo, menor costo, etc

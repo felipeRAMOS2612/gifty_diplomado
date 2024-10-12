@@ -1,0 +1,140 @@
+{
+    "users": [
+        {
+            "dni": "12345678",
+            "name": "Juan",
+            "phone": "123456789",
+            "address": "Calle 123"
+        },
+        {
+            "dni": "87654321",
+            "name": "Pedro",
+            "phone": "987654321",
+            "address": "Calle 321"
+        }
+    ],
+    "products": [
+        {
+            "code": 1,
+            "name": "Tarjeta de felicitación",
+            "price": "3,000.00",
+            "category": "Papelería",
+            "detail": "Tarjeta de felicitación con diseño de corazón",
+            "stock": 150,
+            "created_at": "2021-09-01"
+        },
+        {
+            "code": 2,
+            "name": "Libreta de apuntes",
+            "price": "5,000.00",
+            "category": "Papelería",
+            "detail": "Libreta de apuntes con hojas rayadas",
+            "stock": 103,
+            "created_at": "2021-09-01"
+        },
+        {
+            "code": 3,
+            "name": "Lápiz de grafito",
+            "price": "1,000.00",
+            "category": "Papelería",
+            "detail": "Lápiz de grafito con goma de borrar",
+            "stock": 23,
+            "created_at": "2021-09-01"
+        },
+        {
+            "code": 4,
+            "name": "Lampara de escritorio",
+            "price": "7,000.00",
+            "category": "Decoración",
+            "detail": "Lampara de escritorio con base de madera",
+            "stock": 47,
+            "created_at": "2021-09-02"
+        },
+        {
+            "code": 5,
+            "name": "Cuadro",
+            "price": "10,000.00",
+            "category": "Decoración",
+            "detail": "Cuadro con diseño de paisaje",
+            "stock": 150,
+            "created_at": "2021-09-02"
+        },
+        {
+            "code": 6,
+            "name": "Peluche de oso",
+            "price": "15,000.00",
+            "category": "Juguetería",
+            "detail": "Peluche de oso de 30 cm",
+            "stock": 100,
+            "created_at": "2021-09-03"
+        },
+        {
+            "code": 7,
+            "name": "Rompecabezas",
+            "price": "20,000.00",
+            "category": "Juguetería",
+            "detail": "Rompecabezas de 1000 piezas",
+            "stock": 70,
+            "created_at": "2021-09-03"
+        },
+        {
+            "code": 8,
+            "name": "Llavero de corazón",
+            "price": "4,000.00",
+            "category": "Accesorio",
+            "detail": "Llavero de corazón con llavero adicional",
+            "stock": 100,
+            "created_at": "2021-09-04"
+        },
+        {
+            "code": 9,
+            "name": "Collar de plata",
+            "price": "2,000.00",
+            "category": "Accesorio",
+            "detail": "Collar de plata con dije de corazón",
+            "stock": 200,
+            "created_at": "2021-09-04"
+        },
+        {
+            "code": 10,
+            "name": "Bolsa de regalo",
+            "price": "3,000.00",
+            "category": "Empaque y Envoltura",
+            "detail": "Bolsa de regalo con diseño de corazón",
+            "stock": 100,
+            "created_at": "2021-09-05"
+        }
+    ],
+    "inventories": [
+        {
+            "code": 1,
+            "name": "Papelería",
+            "ubication": "Pasillo 1",
+            "created_at": "2021-09-01"
+        },
+        {
+            "code": 2,
+            "name": "Decoración",
+            "ubication": "Pasillo 2",
+            "created_at": "2021-09-02"
+        },
+        {
+            "code": 3,
+            "name": "Juguetería",
+            "ubication": "Pasillo 3",
+            "created_at": "2021-09-03"
+        },
+        {
+            "code": 4,
+            "name": "Accesorio",
+            "ubication": "Pasillo 4",
+            "created_at": "2021-09-04"
+        },
+        {
+            "code": 5,
+            "name": "Empaque y Envoltura",
+            "ubication": "Pasillo 5",
+            "created_at": "2024-10-9"
+        }
+    ]
+}
