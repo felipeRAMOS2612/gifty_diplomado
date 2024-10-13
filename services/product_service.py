@@ -32,6 +32,9 @@ def create_product(products)-> Product:
         return None
     detail = input("Detalle: ")
     stock = int(input("Stock: "))
+    if stock < 0:
+        print("El stock no puede ser menor a 0")
+        return None 
     created_at = datetime.now()
     product = Product()
     product_saved = product.save(name=name, price=price, code=code, detail=detail, category=category, created_at=created_at, stock=stock)

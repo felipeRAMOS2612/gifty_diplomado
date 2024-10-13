@@ -19,8 +19,8 @@ def inventory_menu():
         print("1. Crear inventario")
         print("2. Listar inventarios")
         print("3. Actualizar inventario")
-        print("4. Añadir items a inventario")
-        print("5. Eliminar items de inventario")
+        print("4. Añadir producto a inventario")
+        print("5. Eliminar producto de inventario")
         print("6. Volver atras \n")
         option = int(input("Elige una opción: "))
         

@@ -95,6 +95,9 @@ def sell_product(inventories):
     ]
     product: Product  = find_product(inventory_products)
     quantity = int(input("Cantidad: "))
+    if quantity < 0:
+        print("La cantidad no puede ser negativa.")
+        return
     if inventory.fifo(quantity) and product.fifo(quantity):
         if product.stock == 0:
             inventory.remove_products(product)
